@@ -6,7 +6,9 @@
 
 p{
     font-size: 16px;
+    font-family: 'Young Serif';
 }
+
 
 
 .attribution { font-size: 11px; text-align: center; }
@@ -20,7 +22,7 @@ body{
 .contenedor-principal{
     background-color: white;
     width: 50%;
-    height: 2000px;
+    min-height:1650px;
     margin: 80px auto;
     border-radius: 20px;
 
@@ -30,19 +32,30 @@ body{
 .section1{
     display: flex;
     justify-content: center;
-    padding-top: 20px;
+    padding-top: 35px;
     flex-direction: column;
     align-items: center;
     margin: 25px;
 }
 .section1 img{
-    max-width: 100%;
+    max-width: 95%;
     border-radius:10px ;
 }
 
-.section1 h1{
-    font-size: 20px;
+.omelette h1{
+    font-size: 35px;
+    margin-left: 35px; 
+    font-family: 'Outfit';
+    font-weight: 600;
+
 }
+
+.omelette p{
+    font-size: 16px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
 
 .section2 {
     background-color:hsl(330, 100%, 98%);
@@ -52,9 +65,11 @@ body{
     padding-bottom: 20px;  
 }
 .section2 h2{
+    font-family: 'Young Serif';
     font-size: 20px;
     margin: 10px;
     color: hsl(332, 51%, 32%);
+    font-weight: 600;
 
 }
 .section2 ul li{
@@ -62,7 +77,6 @@ body{
     margin-bottom: 10px;
 }
 .section3{
-    border-radius: 10px;
     margin: 25px; 
     padding: 10px;
     padding-bottom: 20px;  
@@ -70,12 +84,116 @@ body{
 
 .section3 ul li{
     margin-left: 15px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
+.section3 li::marker{
+    color: hsl(14, 45%, 36%);
+}
+.section3 h2{
+    font-family: 'Outfit';
+    font-size: 30px;
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+}
+.section3 hr{
+    margin-top: 30px;
+}
 
+.section4{
+    margin-left:42px; 
+    margin-right: 25px;
+    padding: 10px;
+    padding-bottom: 20px;  
+}
 
+.section4 ul li{
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+.section4 li::marker{
+    color: hsl(14, 45%, 36%);
+}
+.title-section4 h2{
+    font-family: 'Outfit';
+    font-size: 30px;
+    color: hsl(14, 45%, 36%);
+    margin-left: 32px;
+    font-weight:600 ;
 
+}
+
+.section4 li{
+    margin-bottom: 15px;
+
+}
+.section4 hr{
+    margin-top: 30px;
+}
+
+.title-section5 h2{
+    font-family: 'Outfit';
+    font-size: 30px;
+    margin-left: 32px;
+    color:hsl(14, 45%, 36%);
+    font-weight: 600;
+}
+
+.parrafo-section5{
+    margin-left: 35px;
+}
+
+.calories-kcal1{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    margin-left: 50px;
+    padding-bottom: 10px;
+
+}
+.calories-kcal2{
+    display: flex;
+    flex-direction: row;
+    gap: 218px;
+    margin-left: 50px;
+    padding:10px 0;
+
+}
+
+.calories-kcal3{
+    display: flex;
+    flex-direction: row;
+    gap: 209px;
+    margin-left: 50px;
+    padding:10px 0;
+    
+
+}
+
+.calories-kcal4{
+    display: flex;
+    flex-direction: row;
+    gap: 235px;
+    margin-left: 50px;
+    padding:10px 0;
+
+}
+.calories-kcal{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    margin-left: 50px;
+    margin-top: 15px;
+
+}
+
+.Kcal{
+    color: hsl(14, 45%, 36%) ;
+}
+
+.section5 hr{
+    margin:0 45px;
+}
 
 
 /* ## Colors
