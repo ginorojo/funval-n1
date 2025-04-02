@@ -1,0 +1,107 @@
+*{
+    
+    padding: 0;
+    margin: 0;
+}
+
+p{
+    font-size: 16px;
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body{
+    height: auto;
+    background-color: hsl(30, 54%, 90%);
+}
+
+.contenedor-principal{
+    background-color: white;
+    width: 50%;
+    height: 2000px;
+    margin: 80px auto;
+    border-radius: 20px;
+
+
+}
+
+.section1{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px;
+}
+.section1 img{
+    max-width: 100%;
+    border-radius:10px ;
+}
+
+.section1 h1{
+    font-size: 20px;
+}
+
+.section2 {
+    background-color:hsl(330, 100%, 98%);
+    border-radius: 10px;
+    margin: 30px; 
+    padding: 10px;
+    padding-bottom: 20px;  
+}
+.section2 h2{
+    font-size: 20px;
+    margin: 10px;
+    color: hsl(332, 51%, 32%);
+
+}
+.section2 ul li{
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.section3{
+    border-radius: 10px;
+    margin: 25px; 
+    padding: 10px;
+    padding-bottom: 20px;  
+}
+
+.section3 ul li{
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+/* ## Colors
+
+- White: hsl(0, 0%, 100%)
+
+- Stone 100: hsl(30, 54%, 90%)
+- Stone 150: hsl(30, 18%, 87%)
+- Stone 600: hsl(30, 10%, 34%)
+- Stone 900: hsl(24, 5%, 18%)
+
+- Brown 800: hsl(14, 45%, 36%)
+
+- Rose 800: hsl(332, 51%, 32%)
+- Rose 50: hsl(330, 100%, 98%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 16px
+
+### Fonts
+
+- Family: [Young Serif](https://fonts.google.com/specimen/Young+Serif)
+- Weights: 400
+
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 400, 600, 700 */
