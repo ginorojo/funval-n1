@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*position: static es el que esta por defecto*/
+
+.box1,
+.box2,
+.box3 {
+    width: 200px;
+    height: 200px;
+    border: solid 2px blue;
+}
+
+.item1,
+.item2,
+.item3 {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+}
+
+/*absolute y relative */
+
+.box1{
+    position: relative;
+}
+
+.item1{
+    position: absolute;
+    right: 43%;
+    top:0 ;
+    left:0 ;
+    bottom:52% ;
+}
+
+/*fixed */
+
+.item2{
+    position: fixed;
+    right: 43%;
+    top:0 ;
+    left:0 ;
+    bottom:52% ;
+}
+
+
+/*sticky */
+
+.item2{
+    position: sticky;
+    right: 43%;
+    top:0 ;
+    left:0 ;
+    bottom:52% ;
+}

@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+.header{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+.navegation-bar ul {
+    display: flex;
+    flex-direction: row;
+    gap:40px;
+}
+
+.navegation-bar ul {
+    list-style: none;
+    
+}
+
+.navegation-bar a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.lupa{
+    width: 1%;
+
+}
+
+.apple-logo img{
+    width: 60%;
+}
+.apple-logo{
+    padding-top:5px;
+}
+
+.carro-compra img{
+    width:12px;
+}
+
+.hero{
+    position: relative;
+    width:100%;
+}
+
+.hero-img img {
+    width: 100%;
+    height: 600px;
+}
+
+.titulo1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 700px;
+    gap: 2px;
+}
+
+.titulo1 h1,h2{
+    font-size: 55px;
+}
+
+.titulo1 p{
+    font-size: 27px;
+}
+.titulo1 button{
+    margin-top: 20px;
+    border: 0;
+    border-radius: 30px;
+    width: 180px;
+    height:45px ;
+    background-color: rgb(63, 111, 206);
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section2 img{
+    width: 100%;
+    height: 600px;
+}
