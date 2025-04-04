@@ -1,0 +1,240 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    padding:5px 20px;
+    background-color: white;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    border: 2px solid white;
+    height: 100px;
+    padding:0 20px ;
+    border-radius: 20px;
+}
+
+.futura-img{
+    background-color:green;
+    width: 100px;
+    height: 80%;
+    border-radius: 20px;
+}
+
+.navegation-bar{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    border:2px solid green ;
+    width: 30%;
+    height: 80%;
+    border-radius: 20px;
+    
+}
+.navegation-bar li{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.navegation-bar a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 80%;
+    border-radius: 10px;
+    background-color: green;
+}
+
+.section1{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    background-color: black;
+    width: 100%;
+    height: 500px;
+    border-radius: 20px;
+    justify-content: center;
+}
+
+.section1 .primer-cuadrado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    width: 40%;
+    height:80%;
+    border: 2px solid green;
+    border-radius: 20px;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.box1, .box2 , .box3{
+    width: 30%;
+    height: 30%;
+    background-color: green;
+    border:2px solid white;
+
+}
+
+.segundo-cuadrado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    width: 40%;
+    height:80%;
+    border: 2px solid green;
+    border-radius: 20px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.segundo-cuadrado .box4{
+    background-color: green;
+    width: 30%;
+    height: 30%;
+    border: 2px solid white;
+}
+
+.section2{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    background-color: black;
+    width: 100%;
+    height: 500px;
+    border-radius: 20px;
+    justify-content: center;
+
+}
+
+.primer-cuadrado-s2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    width: 40%;
+    height:80%;
+    border: 2px solid green;
+    border-radius: 20px;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content:flex-start;
+    padding-left: 30px;
+
+
+}
+
+.box5{
+    background-color: green;
+    width: 45%;
+    height: 30%;
+    border-radius: 20px;
+    border: 2px solid white;
+
+
+}
+
+.box6{
+    background-color: green;
+    width: 80%;
+    height: 30%;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+.segundo-cuadrado-s2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.box7{
+    background-color: green;
+    height: 50%;
+    width: 20%;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+.box8{
+    background-color: green;
+    height: 50%;
+    width: 20%;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    background-color: black;
+    width: 100%;
+    height: 250px;
+    border-radius: 20px;
+    justify-content: space-between;
+    padding:0 25px ;
+
+    
+}
+.box9{
+    background-color: green;
+    height: 50%;
+    width: 20%;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+.box10{
+    background-color: green;
+    height: 50%;
+    width: 20%;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+
+
+
+
+
+
+
+
+.segundo-cuadrado-s2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    width: 40%;
+    height:80%;
+    border: 2px solid green;
+    border-radius: 20px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+
+
+
+
+
+
+
