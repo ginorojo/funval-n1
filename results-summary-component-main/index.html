@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"/>
+
+  </style>
+
+    <title>Frontend Mentor | Results summary component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Righteous&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body class="font-[Hanken Grotesk] bg-[#ecf2ff] ">
+    <main class="flex flex-col justify-center md:flex-row">
+      <section class="bg-gradient-to-t from-[#4d37f4] to-[#4d37f4e6] min-h-80 rounded-b-4xl text-white 
+      flex flex-col items-center pt-5 px-14 gap-2 md:w-[40%] md:rounded-xl" >
+        <h1 class="text-[18px] opacity-60">Your Result</h1>
+        <div class="bg-[#462dde] flex flex-col items-center border border-none rounded-full w-33 h-33 pt-4">
+          <span class="text-[50px]">76</span>
+          <span>of 100</span>
+        </div>
+        <h2 class="text-[22px]">Great</h2>
+        <p class="opacity-60">
+          You scored higher than 65% 
+          of the people who have taken these tests.
+        </p>
+      </section>
+      <section class="bg-white flex flex-col justify-center gap-4 px-10 md:w-[40%] md:rounded-r-xl">
+        <div>
+          <p class="font-bold pl-1 pt-8 text-[17px]">Summary</p>
+        </div>
+        <div class="flex flex-row items-center justify-around bg-[#fff6f7] h-15 rounded-xl"> 
+          <div class="flex gap-2">
+            <img src="./assets/images/icon-reaction.svg" alt="">
+            <span class="text-red-500">Reaction</span>
+          </div>
+          <div>
+            <span><strong>80</strong>  / 100</span>
+          </div>
+        </div>
+
+        <div class="flex items-center justify-around bg-[#fffaf4] h-15 rounded-xl">
+          <div class="flex gap-2">
+            <img src="./assets/images/icon-memory.svg" alt="">
+            <span class="text-yellow-500">Memory</span>
+          </div>
+          <div>
+            <span><strong>92</strong>  / 100</span>
+          </div>
+        </div>
+
+        <div class="flex items-center justify-around bg-[#f2fdf9] h-15 rounded-xl">
+          <div class="flex gap-3">
+            <img src="./assets/images/icon-verbal.svg" alt="">
+            <span class="text-green-600">Verbal</span>
+          </div>
+          <div>
+            <span><strong>61</strong> / 100</span>
+          </div>
+        </div>
+
+        <div class="flex items-center justify-around bg-[#f4f4ff] h-15 rounded-xl">
+          <div class="flex gap-4">
+            <img src="./assets/images/icon-visual.svg" alt="">
+            <span class="text-blue-800"><span>Visual</span>
+          </div>
+          <div>
+            <span><strong>73</strong> / 100</span>
+          </div>
+        </div>
+
+        <div class="flex items-center justify-center pb-7">
+          <button class="bg-[#303b59] w-80 h-14 rounded-full text-white text-[18px] font-semibold">Continue</button>
+        </div>
+        
+      </section>
+
+    </main>
+
+  </body>
+</html>
