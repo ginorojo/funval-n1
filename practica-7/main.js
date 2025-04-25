@@ -11,46 +11,46 @@ const productos = [
     { nombre: "Tablet", precio: 500 }
  ];
  
-// //EJERCICIO 1 
-// productos.forEach(producto => {
-//     console.log(`Nombre:${producto.nombre} Precio:${producto.precio}$ `)
-// })
+//EJERCICIO 1 
+productos.forEach(producto => {
+    console.log(`Nombre:${producto.nombre} Precio:${producto.precio}$ `)
+})
 
-// //EJERCICIO2
+//EJERCICIO2
 
-//  let productosDisponibles = productos.map((producto)=>producto.nombre );
-//      console.log(productosDisponibles)
+ let productosDisponibles = productos.map((producto)=>producto.nombre );
+     console.log(productosDisponibles)
 
-// let disponible= productosDisponibles.includes("Mouse")
-// console.log(disponible)
+let disponible= productosDisponibles.includes("Mouse")
+console.log(disponible)
 
 
-// //EJERCICIO3
+//EJERCICIO3
 
-// let Descuento= productos.map((producto)=>({
-// nombre:producto.nombre,
-// Descuento:producto.precio-producto.precio*0.10
-//  }));
+let Descuento= productos.map((producto)=>({
+nombre:producto.nombre,
+Descuento:producto.precio-producto.precio*0.10
+ }));
 
-// console.log(Descuento);
+console.log(Descuento);
 
-// //EJERCICIO4
+//EJERCICIO4
 
-// let menor = productos.filter((product)=>product.precio<100);
-// console.log(menor);
+let menor = productos.filter((product)=>product.precio<100);
+console.log(menor);
 
-// //EJERCICIO05
+//EJERCICIO05
 
-// let dosPrimeros=productos.slice(0,2).forEach(producto => {
-// console.log(producto)
-// });
+let dosPrimeros=productos.slice(0,2).forEach(producto => {
+console.log(producto)
+});
     
 
-// //EJERCICIO06
-// ordenados=productos.sort((a,b)=>a.precio - b.precio);
-// console.log(ordenados);
+//EJERCICIO06
+ordenados=productos.sort((a,b)=>a.precio - b.precio);
+console.log(ordenados);
 
-// //EJERCICIO07
-// ordenadosInverso=productos.reverse()
-// console.log(ordenadosInverso);
+//EJERCICIO07
+ordenadosInverso=productos.reverse()
+console.log(ordenadosInverso);
 
