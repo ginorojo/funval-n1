@@ -20,7 +20,7 @@ async function fetchUsers() {
 
     }
     catch(error){
-        console.log("error en desplegar los datos")
+        console.log("Error al cargar los usuarios. Inténtalo de nuevo más tarde.")
 
     }
     
